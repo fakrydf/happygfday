@@ -1,0 +1,42 @@
+/* style.css */
+
+body {
+  margin: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden; /* biar ga bisa scroll-scroll */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paper-wrapper {
+  position: relative;
+  width: 90vw;
+  max-width: 350px;
+  aspect-ratio: 3 / 5; /* biar bentuk kertas konsisten */
+}
+
+.paper-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.typing-text {
+  position: absolute;
+  top: 10%;  /* agak turun dikit dari atas */
+  left: 10%;
+  width: 80%;
+  font-family: monospace;
+  font-size: 12px;
+  line-height: 19px;
+  color: #000;
+}
